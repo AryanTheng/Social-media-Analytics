@@ -1,0 +1,9 @@
+langflow==0.1.0    # Replace with the version you're using
+datastax==3.0.0    # For connecting to Astra DB (or cassandra-driver if applicable)
+openai==0.27.8     # For GPT integration (if used directly)
+pandas==2.0.3      # For data manipulation and analysis
+numpy==1.24.0      # For numerical operations (optional)
+fastapi==0.95.2    # For API if you're using Langflow extensions
+uvicorn==0.22.0    # For running Langflow workflows locally
+python-dotenv==1.0.0  # For managing environment variables (if needed)
+requests==2.31.0   # For making HTTP requests (if applicable)
