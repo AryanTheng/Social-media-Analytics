@@ -36,7 +36,8 @@ body {
 
 /* Chat Container */
 .chat-container {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   background: #282a36;
   border: 2px solid #44475a;
   border-radius: 8px;
@@ -100,4 +101,53 @@ body {
 
 #send-btn:hover {
   background-color: #50fa7b;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .chat-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .chat-header h2 {
+    font-size: 0.9rem;
+  }
+
+  .chat-container {
+    width: 95%;
+  }
+
+  #user-input {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  #send-btn {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chat-header .logo {
+    width: 60px;
+  }
+
+  .chat-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .chat-header h2 {
+    font-size: 0.8rem;
+  }
+
+  #user-input {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  #send-btn {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
 }
