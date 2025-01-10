@@ -5,7 +5,7 @@ class LangflowClient {
     }
   
     async post(endpoint, body) {
-      const proxyUrl = "http://localhost:3000/proxy"; // Update with your live proxy URL after deployment
+      const proxyUrl = "https://replit.com/@tonapeayush/proxyserveronline.repl.co"; // Update with your live proxy URL after deployment
       const apiUrl = `${this.baseURL}${endpoint}`;
   
       try {
