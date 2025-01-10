@@ -60,7 +60,7 @@ This project is a part of the *Level Supermind Hackathon* Pre-Hackathon Assignme
 
 ## *Demo Video*  
 
-[Watch the Demo Video Here](#)  
+https://youtu.be/mHWxt6RbcQo?si=PRWQSBM7vS_TN0_4
 
 ---
 
