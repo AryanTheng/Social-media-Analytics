@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Error 404 - Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar containing chatbot conversations -->
+    <div class="sidebar" id="sidebar">
+        <h1>Team Error 404</h1>
+        <button class="new-conversation" onclick="startNewConversation()">+ New Conversation</button>
+        <ul class="conversation" id="conversationList"></ul>
+    </div>
+
+    <!-- Main Chat Container -->
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <button class="toggle-sidebar" onclick="toggleSidebar()">☰</button>
+            <span><p>ChatBot by Team Error404</p></span>
+            <div><span id="currentChatTitle">Select or Start a Conversation</span></div>
+        </div>
+        <div class="main-content">
+            <button id="startChatButton" class="start-chat-btn" onclick="startNewConversation()">Start New Conversation</button>
+            <div class="chat-area" id="chatArea"></div>
+            <div class="input-area" id="inputArea">
+                <input type="text" id="messageInput" placeholder="Type your message here..." onkeypress="handleKeyPress(event)" />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
